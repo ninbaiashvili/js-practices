@@ -3,7 +3,7 @@ function upperCaseFirst(str) {
         throw new Error('Not a string!');
     }
     else {
-        const stringInUpperCase = str.toUpperCase();
+        const stringInUpperCase = str.charAt(0).toUpperCase() + str.slice(1);
         return stringInUpperCase;
     }
 };
