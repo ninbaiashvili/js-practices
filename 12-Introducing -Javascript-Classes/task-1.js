@@ -18,4 +18,4 @@ console.log(worker.surname); // print 'Smith'
 console.log(worker.rate); // print 10
 console.log(worker.days); // print 31
 console.log(worker.getSalary()); // print 310 - because 10*31
-console.log(worker.getSalary() + worker2.getSalary()); // print 310 - because 10*31
+console.log(worker.getSalary() + worker2.getSalary()); // print 550 - because 10*31 + 20*12
